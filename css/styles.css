@@ -3,7 +3,7 @@
     text-align: center;
   }
   video{
-    width: 100%vw;
+    object-fit: fill;
   }
   /* Centered text */
 .centered {
@@ -12,19 +12,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
-.card-img-top {
-    width: 50%;
-    text-align: center;
-}
-.card{
-    display:flex ;
-    align-items: center;
-    width: 25%;
-}
-.card-deck{
-    display: flex;
-    flex-direction: row;
-}
 .project-section{
     background-color: grey;
 }
