@@ -1,9 +1,13 @@
+.hero-section{
+  background-color: black;
+}
 .container {
     position: relative;
     text-align: center;
 }
 video {
     object-fit: fill;
+    opacity: 80%;
   }
 .centered {
     position: absolute;
@@ -11,6 +15,9 @@ video {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+.project-section{
+  background-color: blueviolet;
+}
 .connect-section{
   background-color: lightblue;
   height: 400px;
