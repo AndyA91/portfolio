@@ -1,21 +1,17 @@
 .container {
     position: relative;
     text-align: center;
-  }
-  video{
+}
+video {
     object-fit: fill;
   }
-  /* Centered text */
 .centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
-.project-section{
-    background-color: grey;
-}
-.contact-section{
-    background-color: lightblue;
-    height: 400px;
+.connect-section{
+  background-color: lightblue;
+  height: 400px;
 }
