@@ -25,6 +25,19 @@ video {
 .text-purple{
   color: purple;
 }
+.intro-text{
+  font-size: 8vh;
+}
+@media (max-width: 500px) {
+  .intro-text{
+    font-size: 20px;
+  }
+}
+@media (max-width:990px) {
+  .intro-text{
+    font-size: 35px;
+  }
+}
 /* contact form*/
 input[type=text], select, textarea {
   width: 100%;
