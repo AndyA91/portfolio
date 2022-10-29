@@ -20,7 +20,7 @@ video {
 }
 .connect-section{
   background-color: black;
-  height: 700px;
+  height: 645px;
 }
 .text-purple{
   color: purple;
@@ -36,6 +36,11 @@ video {
 @media (max-width:990px) {
   .intro-text{
     font-size: 35px;
+  }
+  @media (max-width: 499px) {
+    .intro-text{
+      font-size: 20px;
+    }
   }
 }
 /* contact form*/
